@@ -1,0 +1,46 @@
+@media (min-width: 750px) {
+    .omelette img {
+        margin: 10px 10px 0 40px;     
+        border-radius: 20px;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+        width: 656px;
+        aspect-ratio: auto 656 / 300;
+        height: 300px;
+        padding: 10px;
+    }
+    .omelette{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+
+    }
+    .container{
+        padding: 20px;
+        margin: 20px;
+    }
+    main {
+        padding-top: 50px;
+        margin: 0 40px;
+        border-radius: 20px;
+    }
+    body{
+        background-color: var( --eggshell);
+    }
+    .container{
+        width: 800px;    
+        margin: 123px auto;
+        border-radius: 20px;
+        background-color: var(--white);
+    }    
+    .preparation {
+        height: 177px;
+        margin-bottom: 40px;
+        border-radius: 12px;
+    }
+    .attribution{
+        display: flex;
+        justify-content: center;
+        
+    }
+}
